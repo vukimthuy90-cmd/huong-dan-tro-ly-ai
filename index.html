@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cài AI Agent — Khóa Trợ lý AI Vườn Ươm</title>
+<meta name="description" content="Hướng dẫn từng bước cài AI Agent lên máy tính trước buổi học đầu tiên 06/10.">
+<meta name="theme-color" content="#0B1A2B">
+<link rel="icon" href="logo-ab-trang.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=8">
+</head>
+<body>
+<nav id="thanh-menu" class="thanh-menu" aria-label="Tiến độ cài đặt" aria-hidden="true">
+  <div class="khung"><a class="logo-nho" href="#/" aria-label="Về trang chọn"><img src="logo-ab-trang.png" alt="" width="34" height="20"></a>
+    <div class="tien-do" data-tien-do></div></div>
+</nav>
+<div class="khung">
+  <header class="dau">
+    <a class="logo" href="#/"><img src="logo-ab-trang.png" alt="" width="44" height="26">
+      <span><b>AGENT <span>BOSS</span></b><small>HUMAN · AGENTS TEAM</small></span></a>
+    <div class="phai">Hướng dẫn cài máy cho<br><b>Khóa Trợ lý AI · Vườn Ươm</b></div>
+  </header>
+
+  <main id="trang-chu">
+    <p class="duong-dan">Bạn đang ở trang chọn</p>
+    <section class="hero">
+      <span class="nhan">Làm xong trước buổi học 06/10 · 30–45 phút</span>
+      <h1>Hướng dẫn cài đặt<br><em>AI Agent</em></h1>
+    </section>
+    <p><b>Mục tiêu:</b> đến buổi học đầu tiên, máy tính của bạn đã có sẵn 1 AI Agent đang chạy, để dành trọn buổi Zoom cho việc thực hành.</p>
+    <p><b>Vì sao phải cài lên máy tính:</b> AI Agent phải được <b>cài lên máy</b> mới tự làm việc được với file, thư mục và phần mềm trên máy bạn. Bản dùng trên web không làm được như vậy. Nên làm ở nhà, lúc thong thả, đừng để sát giờ học.</p>
+
+    <div class="the" style="margin-top:28px">
+      <h3>Trước khi bắt đầu: bạn là ai?</h3>
+      <p class="mo" style="margin:4px 0 0">Nhập 1 lần, dùng đúng <b>email bạn đã dùng khi đăng ký khóa</b>. Mỗi lần bạn bấm <b>"Tôi đã làm xong"</b>, Ban tổ chức biết bạn đã qua bước đó để hỗ trợ đúng chỗ.</p>
+      <form id="form-danh-tinh" class="danh-tinh" novalidate onsubmit="return false">
+        <label>Họ và tên<input name="ten" autocomplete="name" maxlength="80" placeholder="Nguyễn Văn A"></label>
+        <label>Email đã dùng khi đăng ký<input name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" placeholder="ten.ban@gmail.com"></label>
+        <button class="nut" type="submit">Lưu</button>
+      </form>
+      <p id="tb-danh-tinh" class="thong-bao" role="status" style="margin-top:8px"></p>
+      <p id="chao" class="mo" style="margin:14px 0 8px"></p>
+      <div class="tien-do" data-tien-do></div>
+    </div>
+
+    <hr>
+    <h2 id="buoc-1"><em>Bước 1.</em> Kiểm tra máy tính có đủ mới không?</h2>
+    <p>Mac (máy của Apple, có logo quả táo) hay Windows (các hãng khác: Dell, HP, Asus, Lenovo…). AI Agent cần hệ điều hành đủ mới. <b>Máy quá cũ thì không cài được</b>, nên kiểm tra sớm để còn kịp xoay xở.</p>
+    <div class="luoi">
+      <div class="the"><span class="loai">Máy Mac</span><h3>Xem phiên bản macOS</h3>
+        <p>Bấm quả táo  ở góc trên bên trái → <b>About This Mac</b>. Dòng <b>macOS</b> ghi tên và số phiên bản, ví dụ "Sequoia 15.6".</p></div>
+      <div class="the"><span class="loai">Máy Windows</span><h3>Xem phiên bản Windows</h3>
+        <p>Bấm <code>Windows</code> + <code>R</code>, gõ <code>winver</code>, bấm Enter. Cửa sổ hiện ra ghi <b>Windows 10</b> hay <b>Windows 11</b>.</p></div>
+    </div>
+    <div class="o-xong" data-buoc="1-kiem-tra-may" data-go-y="Đối chiếu với bảng ở Bước 2: máy đạt thì bấm nút. Máy cũ quá → xem mục cuối trang."></div>
+
+    <hr>
+    <h2 id="buoc-2"><em>Bước 2.</em> Chọn 1 AI Agent và cài đặt</h2>
+    <p>Chỉ cần <b>một</b> trong ba. Chưa muốn trả phí thì chọn <b>Google Antigravity</b>: miễn phí, đủ để học. Đã có gói ChatGPT Plus hoặc Claude Pro thì dùng luôn cái mình có.</p>
+    <div class="bang-cuon"><table>
+      <tr><th></th><th>Google Antigravity</th><th>Codex</th><th>Claude Code</th></tr>
+      <tr><td>Là gì</td><td>AI Agent của <b>Google</b></td><td>AI Agent trong <b>ChatGPT</b> (OpenAI)</td><td>AI Agent trong <b>Claude</b> (Anthropic)</td></tr>
+      <tr><td>Chi phí</td><td><b>Miễn phí</b> (giới hạn lượt dùng theo tuần, đủ để học)</td><td><b>ChatGPT Plus</b> 20 USD/tháng</td><td><b>Claude Pro</b> 20 USD/tháng</td></tr>
+      <tr><td>Máy Mac cần</td><td>macOS 12 trở lên</td><td>macOS 14 trở lên (máy từ 2018)</td><td>macOS 11 trở lên</td></tr>
+      <tr><td>Máy Windows cần</td><td>Windows 10 (64-bit) trở lên</td><td>Windows 11 (Windows 10 cập nhật đủ vẫn chạy)</td><td>Windows 10 trở lên</td></tr>
+      <tr><td>Đăng nhập bằng</td><td>Gmail <b>cá nhân</b> (không dùng email công ty)</td><td>Tài khoản ChatGPT</td><td>Tài khoản Claude (đăng nhập bằng Gmail được)</td></tr>
+    </table></div>
+    <p class="mo chi-dien-thoai">← Vuốt ngang bảng để xem đủ 3 công cụ →</p>
+    <p class="mo">Mac đời cũ (macOS 12–13) thì chọn Antigravity hoặc Claude Code, vì Codex chưa cài được.</p>
+    <div class="luoi">
+      <div class="the goi-y"><span class="loai">Antigravity <span class="huy-hieu">MIỄN PHÍ</span></span><h3>Khuyên dùng cho người mới</h3>
+        <p>Tải, cài, đăng nhập bằng Gmail. Không cần thẻ. 10 phút.</p>
+        <div class="cap-nut"><a class="nut" href="#/antigravity-mac">Mac</a><a class="nut" href="#/antigravity-windows">Windows</a></div></div>
+      <div class="the"><span class="loai">Codex</span><h3>Đã có ChatGPT Plus</h3>
+        <p>Tải phần mềm ChatGPT, đăng nhập, chọn Codex. 10 phút.</p>
+        <div class="cap-nut"><a class="nut vien" href="#/codex-mac">Mac</a><a class="nut vien" href="#/codex-windows">Windows</a></div></div>
+      <div class="the"><span class="loai">Claude Code</span><h3>Đã có Claude Pro</h3>
+        <p>Tải phần mềm Claude, đăng nhập, mở Claude Code. 10 phút.</p>
+        <div class="cap-nut"><a class="nut vien" href="#/claude-mac">Mac</a><a class="nut vien" href="#/claude-windows">Windows</a></div></div>
+    </div>
+    <p class="mo">Bước 3 (đăng nhập) và Bước 4 (giao việc đầu tiên) nằm ngay trong trang hướng dẫn của công cụ bạn chọn.</p>
+
+    <hr>
+    <h2>Máy quá cũ, không cài được?</h2>
+    <p>AI Agent bắt buộc cài trên máy, không có bản web thay thế. Bạn cần một máy đủ điều kiện trước ngày 06/10.</p>
+    <details><summary>Máy cũ thì làm sao</summary><p>Mac dưới macOS 11 hoặc Windows dưới 10 thì không cài được công cụ nào. Cách nhanh nhất: mượn máy người thân hoặc máy công ty đủ điều kiện để học, và báo Ban tổ chức trong nhóm Zalo trước 06/10 để được hỗ trợ.</p></details>
+    <details><summary>Không có thẻ Visa/Mastercard để mua gói trả phí</summary><p>Chọn Google Antigravity (miễn phí, không cần thẻ). Muốn mua gói trả phí sau này: mở thẻ Visa/Mastercard ảo ngay trong ứng dụng ngân hàng đang dùng, thường mất khoảng 10 phút.</p></details>
+  </main>
+
+  <main id="trang-con" hidden></main>
+
+  <footer>Trang hướng dẫn cho học viên Khóa Trợ lý AI cho người đi làm · cập nhật 10/2026, giao diện phần mềm có thể thay đổi theo thời gian.<br>Kẹt ở bước nào: chụp màn hình bước đó, gửi vào <b>nhóm Zalo lớp</b>, Ban tổ chức sẽ hỗ trợ.</footer>
+</div>
+<script src="cau-hinh.js?v=8"></script>
+<script src="noi-dung.js?v=8"></script>
+<script src="noi-dung-antigravity.js?v=8"></script>
+<script src="noi-dung-codex.js?v=8"></script>
+<script src="noi-dung-claude.js?v=8"></script>
+<script src="ve-huong-dan.js?v=8"></script>
+<script src="app.js?v=8"></script>
+<script src="thanh-menu.js?v=8"></script>
+</body>
+</html>
