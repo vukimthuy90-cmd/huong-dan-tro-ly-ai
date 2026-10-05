@@ -70,6 +70,9 @@ th { color: var(--phu); font-weight: 500; font-size: 11.5px; letter-spacing: 1.4
 .buoc { display: grid; grid-template-columns: 32px 1fr; gap: 16px; margin: 26px 0; }
 .so { width: 32px; height: 32px; border-radius: 50%; background: var(--cam); color: #fff; font-weight: 700; font-size: 15px; display: grid; place-items: center; }
 .buoc p.mo { font-size: 15px; color: var(--than); }
+.anh-buoc { margin: 12px 0 4px; }
+.anh-buoc img { display: block; max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--vien); background: #fff; }
+.anh-buoc figcaption { font-size: 12.5px; color: var(--phu); margin-top: 6px; }
 code { background: #08131F; border: 1px solid var(--vien); border-radius: 6px; padding: 1px 7px; font-family: ui-monospace, Menlo, monospace; font-size: 13.5px; color: var(--chu); }
 .ma { display: inline-block; max-width: 100%; background: #08131F; border: 1px solid var(--vien); border-radius: 8px; padding: 9px 14px; margin: 8px 0 2px; font-family: ui-monospace, Menlo, monospace; font-size: 14px; color: var(--chu); user-select: all; cursor: text; overflow-wrap: anywhere; }
 .dat { border-left: 3px solid var(--cam); background: var(--the-2); padding: 12px 16px; border-radius: 0 10px 10px 0; margin: 12px 0 0; font-size: 15px; }

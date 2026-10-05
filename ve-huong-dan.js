@@ -6,6 +6,7 @@ window.veHuongDan = function (ma, hd) {
       '<h3>' + b.tieuDe + '</h3>' +
       (b.noiDung ? '<p class="mo">' + b.noiDung + '</p>' : '') +
       (b.ma ? '<div class="ma">' + b.ma + '</div>' : '') +
+      (b.anh ? '<figure class="anh-buoc"><img src="' + b.anh.src + '" alt="' + b.anh.alt + '" loading="lazy"><figcaption>' + b.anh.alt + '</figcaption></figure>' : '') +
       (b.dat ? '<div class="dat"><b>Đạt:</b> ' + b.dat + '</div>' : '') +
       '</div></div>';
   }
